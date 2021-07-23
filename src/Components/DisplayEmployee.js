@@ -1,10 +1,11 @@
 import React from 'react';
+import './DisplayEmployee.css';
 
 function DisplayEmployee({ employee }) {
   return (
     employee && (
       <div className='DisplayEmployee'>
-        <img src={employee.picture.medium} alt={employee.name.first} />
+        <img className="image" src={employee.picture.medium} alt={employee.name.first} />
         <ul>
           <li>Gender: {employee.gender}</li>
           <li>
