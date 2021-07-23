@@ -1,0 +1,22 @@
+
+.DisplayEmployee {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+
+.image {
+    width:100px;
+    border-radius: 50%;
+}
+
+li {
+list-style: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

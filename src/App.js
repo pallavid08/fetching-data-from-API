@@ -36,7 +36,7 @@ function App() {
       .then((response) => response.data)
       // Use this data to update the state
       .then((data) => {
-        console.log(data)
+        
         setEmployee(data.results[0]);
       });
   };
